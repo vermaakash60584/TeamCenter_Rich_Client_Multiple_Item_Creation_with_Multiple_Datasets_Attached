@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample2
+Bundle-SymbolicName: com.tc.plm.sample2;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TC
+Require-Bundle: org.eclipse.ui,
+ com.teamcenter.rac.aifrcp;bundle-version="13000.0.0",
+ com.teamcenter.rac.common;bundle-version="13000.0.0",
+ com.teamcenter.rac.external;bundle-version="13000.0.0",
+ com.teamcenter.rac.neva;bundle-version="2.0.0",
+ com.teamcenter.rac.kernel;bundle-version="13000.0.0",
+ com.teamcenter.rac.tcapps;bundle-version="13000.0.0",
+ com.teamcenter.rac.util;bundle-version="13000.0.0",
+ TcSoaCoreLoose;bundle-version="13000.0.0"
+Automatic-Module-Name: com.tc.plm.sample2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
